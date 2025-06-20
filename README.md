@@ -13,7 +13,7 @@
 
 ## 🛠️ Descripción
 
-Este proyecto nos muestra el funcionamiento de Arboles binarios y arboles Equilibrados
+![Figuras](Terminal.png)
 
 
 
