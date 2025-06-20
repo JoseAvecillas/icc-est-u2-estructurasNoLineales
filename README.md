@@ -1,18 +1,67 @@
-## Getting Started
+# Práctica de Algoritmos de Ordenamiento
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Información General
 
-## Folder Structure
+- **Título:** Práctica de Estructuras Lineales
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** Jose Avecillas
+- **Fecha:** 19/6/2025
+- **Profesor:** Ing. Pablo Torres
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Descripción
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Este proyecto nos muestra el funcionamiento de Arboles binarios y arboles Equilibrados
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila el código:
+    ```bash
+    javac App.java
+    ```
+2. Ejecuta la aplicación:
+    ```bash
+    java App
+    ```
+
+---
+
+## 🧑‍💻 Ejemplo de Entrada relacionado con la materia 
+
+```plaintext
+Nombre: Jose Avecillas 
+Peso del árbol: 8
+Altura del árbol= 4
+----------------------------------------
+InOrder
+9, 14, 17, 19, 23, 50, 54, 76,
+--------------------------------------
+InOrder en Altura
+9(h=2),  14(h=1),  17(h=3),  19(h=1),  23(h=2),  50(h=4),  54(h=1),  76(h=2),
+---------------------------------------
+InOrder Factor de equlibrio
+9( FE=-1),14( FE=0),17( FE=0),19( FE=0),23( FE=1),50( FE=1),54( FE=0),76( FE=1),
+-----------------------------------------
+El árbol está equilibrado= true
+Existe el nodo 15= false
+Nodo desequilibrado:
+9( FE=-2),14( FE=-1),15( FE=0),17( FE=1),19( FE=0),23( FE=1),50( FE=2),54( FE=0),76( FE=1),
+-------------------------------------------
+Existe el nodo 15= true
+El árbol está equilibrado= false
+---------------------------------------------
+ Nodos desequilibrados
+Nodos desequilibrados: 9, 50,
+---------------------------------------------
+```
+
+---
+
