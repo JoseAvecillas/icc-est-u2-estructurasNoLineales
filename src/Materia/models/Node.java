@@ -5,15 +5,13 @@ public class Node {
     private int valor;
     private Node left;
     private Node right;
+    private int height;
 
     public Node(int valor) {
-        this(valor, null, null);
-    }
-
-    public Node(int valor, Node left, Node right) {
         this.valor = valor;
-        this.left = left;
-        this.right = right;
+        this.left = null;
+        this.right = null;
+        this.height = 1; // altura inicial al crear un nuevo nodo
     }
 
     public int getValor() {
@@ -40,8 +38,16 @@ public class Node {
         this.right = right;
     }
 
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
     @Override
     public String toString() {
-        return "Node [valor=" + valor + ", left=" + left + ", right=" + right + "]";
+        return "Node [valor=" + valor + "]";
     }
 }

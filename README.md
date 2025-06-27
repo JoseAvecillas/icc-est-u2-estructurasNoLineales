@@ -61,6 +61,28 @@ El árbol está equilibrado= false
  Nodos desequilibrados
 Nodos desequilibrados: 9, 50,
 ---------------------------------------------
+
+Nuevo
+Imprime:
+Nodo Inserado -> 5 con balance: 0
+Nodo Inserado -> 20 con balance: 0
+Nodo actual -> 5
+        Altura -> 2
+        Balance -> -1
+Nodo Inserado -> 15 con balance: 0
+Nodo actual -> 20
+        Altura -> 2
+        Balance -> 1
+Nodo actual -> 5
+        Altura -> 3
+        Balance -> -2
+Cambio
+Rotacion DER en nodo: 20, con balance = 1
+Nueva raiz despues de la rotacion 15
+Rotacion derecha-izquierda simple a la  Izquierda
+Rotacion IZQ en nodo: 5, con balance = -2
+Nueva raiz despues de la rotacion 15
+Nombre: Jose Avecillas
 ```
 
 ---
